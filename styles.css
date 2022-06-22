@@ -41,7 +41,7 @@ a {
 .artemis {
     color: white;
     width: 100%;
-    margin-top: 20%;
+    margin-top: 150px;
     text-align: center;
     font-size: 3rem;
     background-color: rgba(0, 0, 0, 0.25);
@@ -66,7 +66,8 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: start;
-    background-color: aliceblue;
+    background: rgb(4, 65, 80);
+    background: linear-gradient(180deg, rgba(4, 65, 80, 0.47522759103641454) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 1) 51%, rgba(118, 45, 52, 0.47522759103641454) 100%);
 
 
     font-family: 'Roboto', sans-serif;
@@ -87,7 +88,7 @@ a {
 
 form {
     display: flex;
-    width: 80%;
+    width: 70%;
     flex-flow: row wrap;
     gap: 1rem;
     font-size: 1rem;
@@ -100,7 +101,7 @@ form {
     padding: 1rem 2rem;
     box-shadow: 0px 7px 6px -5px rgba(66, 68, 90, 1);
     font-size: 1.5rem;
-
+    background-color: rgba(255, 255, 255, 0.3)
 }
 
 .formSection p {
@@ -113,11 +114,11 @@ form {
 }
 
 input {
-    width: 90%;
+    width: 95%;
     border-radius: 5px;
     border: grey 2px solid;
     padding: 10px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     box-sizing: border-box;
 }
 
@@ -125,8 +126,9 @@ input:valid {
     border: green 2px solid;
 }
 
+
 label {
-    font-weight: 600;
+    /* font-weight: 600; */
     margin: 5px;
 }
 
@@ -162,4 +164,15 @@ button[type='submit']:hover {
 
 button[type='submit']:active {
     background-color: #f80019;
+}
+
+
+@media screen and (max-width: 1365px) {
+    body {
+        height: 100%;
+    }
+
+    form {
+        flex-direction: column;
+    }
 }
