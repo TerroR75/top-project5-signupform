@@ -2,6 +2,9 @@
 
 Just a signup form.
 
+Stuff to do:
+- JS Validation
+
 Live preview: https://terror75.github.io/top-project5-signupform/
 
 
