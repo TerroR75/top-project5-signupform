@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'GreekFont';
+    src: url('font/DALEK___.ttf') format('opentype');
+}
+
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+
+/* LEFT SIDE */
+.leftBigImage {
+    width: 34%;
+    height: auto;
+    background-image: url("img/alexander-andrews-yOIT88xWkbg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftBigImage footer {
+    margin-top: auto;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.artemis {
+    color: white;
+    width: 100%;
+    margin-top: 30%;
+    text-align: center;
+    font-size: 3rem;
+    background-color: rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    font-family: 'GreekFont', sans-serif;
+
+}
+
+.artemis img {
+    height: 100px;
+    color: white;
+}
+
+/* RIGHT SIDE */
+.signupSection {
+    width: 66%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: aliceblue;
+
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.signupSection header {
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 55%;
+}
+
+.signupSection .submitSection {
+    padding: 0 2rem;
+}
+
+form {
+    display: flex;
+    width: 50%;
+    flex-flow: row wrap;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.formSection {
+    background-color: white;
+    width: 100vw;
+    padding: 1rem 2rem;
+    box-shadow: 0px 7px 6px -5px rgba(66, 68, 90, 1);
+    font-size: 1.5rem;
+
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    height: 1.5rem;
+}
+
+.signupSection a {
+    color: black;
+}
+
+
+button[type='submit'] {
+    margin-top: 1rem;
+}
